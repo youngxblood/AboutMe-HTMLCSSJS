@@ -41,26 +41,28 @@ header {
 	width: 100%;
 }
 /* STYLE BLOCK BELOW DEFINE TITLE UNDERLINE */
-.cmn-t-underline {
+.h1-underline {
 	position: relative;
 	color: #fff;
 }
-.cmn-t-underline:after {
-	display: block;
-	position: absolute;
-	left: 0;
-	bottom: 20px;
-	width: 0;
-	height: 3px;
-	background-color: #fff;
-	content: "";
-	transition: width 0.2s;
+.h1-underline:before {
+	content            : "";
+	position           : absolute;
+	width              : 100%;
+	height             : 2px;
+	bottom             : -6px;
+	left               : 0;
+	background-color   : #FFF;
+	visibility         : hidden;
+	-webkit-transform  : scaleX(0);
+	transform          : scaleX(0);
+	-webkit-transition : all 0.3s ease-in-out 0s;
+	transition         : all 0.3s ease-in-out 0s;
 }
-.cmn-t-underline:hover {
-	color: #fff;
-}
-.cmn-t-underline:hover:after {
-	width: 100%;
+.h1-underline:hover:before {
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
 }
 
 #logo {
@@ -69,8 +71,9 @@ header {
 }
 
 h1 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Catamaran', sans-serif;
     margin: 15px;
+	color: #fff;
     font-size: 1.75em;
     font-weight: normal;
 	text-shadow: 1px 1px #595959;
@@ -115,14 +118,14 @@ nav a {
 	text-shadow: 1px 1px #595959;
 }
 
-nav > a:before {
+nav  a:before {
 	content: "";
 	position: absolute;
 	width: 100%;
 	height: 2px;
-	bottom: 0;
+	bottom: 12px;
 	left: 0;
-	background-color: #000;
+	background-color: #fff;
 	visibility: hidden;
 	-webkit-transform: scaleX(0);
 	transform: scaleX(0);
@@ -130,7 +133,7 @@ nav > a:before {
 	transition: all 0.3s ease-in-out 0s;
 }
 
-h2 > a:hover:before {
+nav  a:hover:before {
 	visibility: visible;
 	-webkit-transform: scaleX(1);
 	transform: scaleX(1);
@@ -148,7 +151,6 @@ footer {
     text-align: center;
     clear: both;
     padding-top: 50px;
-    color: #ccc;
 }
 
 .social-icon {
@@ -199,7 +201,7 @@ footer {
 	display: block;
 	max-width: 275px;
 	margin: 0 auto 30px;
-	border: solid black 2px;
+	border: solid #999 2px;
 	border-radius: 100%;
 	
 
@@ -252,7 +254,6 @@ footer {
 /* site body */
 body {
 	background-image: linear-gradient(#f2f2f2, #fff);
-    color: #999;
 }
 
 /* Green header */
@@ -275,12 +276,12 @@ nav {
 
 /* Logo text */
 h1, h2 {
-    color: #fff;
+	color : #FFF;
 }
 
 /* links */
 a {
-    color: #6ab47b;
+    color: #999;
 }
 
 /* nav link */
