@@ -52,11 +52,13 @@ h1 {
     margin: 15px;
     font-size: 1.75em;
     font-weight: normal;
+	text-shadow: 1px 1px #595959;
     line-height: 0.8em;
 }
 
 h2 {
     font-size: 1em;
+	text-shadow: 1px 1px #595959;
     margin: -5px 0 0;
     font-weight: normal;
 }
@@ -83,11 +85,13 @@ nav ul {
 
 nav li {
 	display: inline-block;
+	
 }
 
 nav a {
 	font-weight: 800;
 	padding: 15px 10px;
+	text-shadow: 1px 1px #595959;
 }
 
 
@@ -109,6 +113,7 @@ footer {
 	width: 20px;
 	height: 20px;
 	margin: 0 5px;
+	padding: 5px 0;
 }
 
 /*
@@ -154,6 +159,7 @@ footer {
 	margin: 0 auto 30px;
 	border: solid black 2px;
 	border-radius: 100%;
+	
 
 }
 
@@ -209,15 +215,19 @@ body {
 
 /* Green header */
 header {
-    background:   #b3ffec;
+
+	background:   #b3ffec;
 	border-top: solid #4dc3ff 3px;
+	width: 100%;
     /*border-color: #ccfff2;*/
 }
 
 /* nav background on mobile */
 nav {
-    background: #ccffcc;
-	border: #4dc3ff solid 1px;
+	float: right;
+	background: #ccffcc;
+	border: #e6ffe6 solid 2px;
+	width: 100%;
 }
 
 /* Logo text */
@@ -233,14 +243,19 @@ a {
 /* nav link */
 nav a, nav a:visited {
     color: #fff;
+	text-shadow: 1px 1px #595959;
 }
 /* Selected nav link */
 nav a.selected, nav a:hover {
     color: #32673f;
+	text-shadow: 1px 1px #595959;
 }
 
 .paragraph-background {
 	background-color: #e6f2ff;
+	padding: .5em .5em .5em .5em;
+	display: table;
+
 }
 
 
