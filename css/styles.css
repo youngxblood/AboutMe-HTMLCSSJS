@@ -40,30 +40,7 @@ header {
 	padding: 5px 0 0 0;
 	width: 100%;
 }
-/* STYLE BLOCK BELOW DEFINE TITLE UNDERLINE */
-.h1-underline {
-	position: relative;
-	color: #fff;
-}
-.h1-underline:before {
-	content            : "";
-	position           : absolute;
-	width              : 100%;
-	height             : 2px;
-	bottom             : -6px;
-	left               : 0;
-	background-color   : #FFF;
-	visibility         : hidden;
-	-webkit-transform  : scaleX(0);
-	transform          : scaleX(0);
-	-webkit-transition : all 0.3s ease-in-out 0s;
-	transition         : all 0.3s ease-in-out 0s;
-}
-.h1-underline:hover:before {
-	visibility: visible;
-	-webkit-transform: scaleX(1);
-	transform: scaleX(1);
-}
+
 
 #logo {
     text-align: center;
@@ -71,9 +48,8 @@ header {
 }
 
 h1 {
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 15px;
-	color: #fff;
     font-size: 1.75em;
     font-weight: normal;
 	text-shadow: 1px 1px #595959;
@@ -118,27 +94,6 @@ nav a {
 	text-shadow: 1px 1px #595959;
 }
 
-nav  a:before {
-	content: "";
-	position: absolute;
-	width: 100%;
-	height: 2px;
-	bottom: 12px;
-	left: 0;
-	background-color: #fff;
-	visibility: hidden;
-	-webkit-transform: scaleX(0);
-	transform: scaleX(0);
-	-webkit-transition: all 0.3s ease-in-out 0s;
-	transition: all 0.3s ease-in-out 0s;
-}
-
-nav  a:hover:before {
-	visibility: visible;
-	-webkit-transform: scaleX(1);
-	transform: scaleX(1);
-}
-
 
 /*
 **************************
@@ -151,6 +106,7 @@ footer {
     text-align: center;
     clear: both;
     padding-top: 50px;
+    color: #ccc;
 }
 
 .social-icon {
@@ -201,7 +157,7 @@ footer {
 	display: block;
 	max-width: 275px;
 	margin: 0 auto 30px;
-	border: solid #999 2px;
+	border: solid black 2px;
 	border-radius: 100%;
 	
 
@@ -253,35 +209,35 @@ footer {
 
 /* site body */
 body {
-	background-image: linear-gradient(#f2f2f2, #fff);
+    background-color: #fff;
+    color: #999;
 }
 
 /* Green header */
 header {
 
-	background:   #5BC8AC;
-	border-top: solid #324851 3px;
+	background:   #b3ffec;
+	border-top: solid #4dc3ff 3px;
 	width: 100%;
     /*border-color: #ccfff2;*/
 }
 
-
 /* nav background on mobile */
 nav {
 	float: right;
-	background: #7DA3A1;
+	background: #ccffcc;
 	border: #e6ffe6 solid 2px;
 	width: 100%;
 }
 
 /* Logo text */
 h1, h2 {
-	color : #FFF;
+    color: #fff;
 }
 
 /* links */
 a {
-    color: #999;
+    color: #6ab47b;
 }
 
 /* nav link */
@@ -291,10 +247,8 @@ nav a, nav a:visited {
 }
 /* Selected nav link */
 nav a.selected, nav a:hover {
-    color: #335966;
+    color: #32673f;
 	text-shadow: 1px 1px #595959;
-	position: relative;
-	text-decoration: none;
 }
 
 .paragraph-background {
