@@ -53,7 +53,7 @@
 	
 	
 	nav {
-		background: #7DA3A1;
+		background: #ffd966;
 		float: right;
 		font-size: 1.125em;
 		/*margin-right: 5%;*/
@@ -64,12 +64,12 @@
 	}
 	
 	h1 {
-		font-size: 2.5em;
+		font-size: 4em;
 	}
 	
 	h2 {
 		padding: 0 0 0 15px;
-		font-size: 0.825em;
+		font-size: 1.5em;
 	}
 	
 	header {
