@@ -161,7 +161,7 @@ footer {
 
 .social-icon {
 	width: 20px;
-	height: 20px;
+	height: 30px;
 	margin: 0 5px;
 	padding: 5px 0;
 }
@@ -209,8 +209,6 @@ footer {
 	margin: 0 auto 30px;
 	border: solid #999 2px;
 	border-radius: 100%;
-	
-
 }
 
 
@@ -288,7 +286,7 @@ body {
 /* nav background on mobile */
 nav {
 	float: right;
-	background: #ffd966;
+	background: linear-gradient(to left, #9633ff, #d9b3ff 85%);
 	border-top: 2px solid #e6ffe6;
 	border-bottom: 2px solid #e6ffe6;
 	width: inherit;
@@ -313,7 +311,7 @@ nav a, nav a:visited {
 }
 /* Selected nav link */
 nav a.selected, nav a:hover {
-    color: #ff8080;
+    color: #66b3ff;
 	text-shadow: 1px 1px #595959;
 	position: relative;
 	text-decoration: none;

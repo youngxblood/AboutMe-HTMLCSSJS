@@ -53,7 +53,7 @@
 	
 	
 	nav {
-		background: #ffd966;
+		background: linear-gradient(to left, #9633ff, #d9b3ff 85%);
 		float: right;
 		font-size: 1.125em;
 		/*margin-right: 5%;*/
@@ -65,11 +65,14 @@
 	
 	h1 {
 		font-size: 4em;
+		text-shadow: 3px 3px 3px #666699;
 	}
 	
 	h2 {
 		padding: 0 0 0 15px;
 		font-size: 1.5em;
+		text-shadow: 3px 3px 3px #666699;
+		
 	}
 	
 	header {
